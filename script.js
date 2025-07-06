@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
     const messages = [
-        "Are you sure, zeerr?",
+        "Are you sure?",
         "Really sure??",
         "Are you positive?",
         "Sayang please.. ;(",
         "Just think about it!",
-        "If you say no, ADEK NAFHAN will be really sad...",
-        "ADEKK NAFHAN will be very sad...",
+        "If you say no, JAP will be really sad...",
+        "I will be very sad...",
         "I will be very very very sad...",
         "Ok fine, I will stop asking...",
         "Just kidding, say yes please! ❤️"
@@ -24,6 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     document.querySelector('.yes-button').addEventListener("click", function () {
-        window.location.href = "/HowDeepIsYourLove/yes_page.html";  // Use your repo name
+        window.location.href = "/HowDeepIsYourLove/yes_page.html";
     });
 });
